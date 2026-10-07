@@ -397,3 +397,33 @@ h3 { margin: 0 0 12px; font-size: 21px; }
   .news-item { grid-template-columns: 1fr; gap: 4px; }
   .footer-wrap { flex-direction: column; }
 }
+
+.profile-name {
+  margin: 0 0 8px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.profile-email {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  margin-bottom: 20px;
+}
+
+.profile-email a {
+  font-size: 14px;
+  color: var(--muted);
+  text-decoration: none;
+}
+
+.profile-email a:hover {
+  color: var(--text);
+  text-decoration: underline;
+}
+
+.profile-divider {
+  height: 1px;
+  background: var(--line);
+  margin: 18px 0;
+}
