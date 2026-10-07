@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360">
+    <rect width="640" height="360" fill="#f7fbfe"/>
+    <circle cx="560" cy="48" r="90" fill="#e8f5fc"/>
+    
+        <g fill="#d9eef9" stroke="#87c7e7" stroke-width="2">
+          <rect x="100" y="100" width="110" height="110" rx="18"/>
+          <rect x="260" y="70" width="110" height="110" rx="18"/>
+          <rect x="420" y="120" width="110" height="110" rx="18"/>
+        </g>
+        <g fill="#2f8fc4">
+          <circle cx="155" cy="155" r="18"/>
+          <circle cx="315" cy="125" r="18"/>
+          <circle cx="475" cy="175" r="18"/>
+        </g>
+        <path d="M173 155 L297 125 M333 125 L457 175" stroke="#176da4" stroke-width="4" stroke-dasharray="8 8"/>
+        
+    <text x="36" y="324" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#31586f">SPEC-Net</text>
+    </svg>
