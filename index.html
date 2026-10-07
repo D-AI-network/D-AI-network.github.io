@@ -21,7 +21,6 @@
     rel="stylesheet"
   >
 
-  <!-- Main CSS -->
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 
@@ -29,11 +28,16 @@
 <body>
 
   <!-- =========================================================
-       Navigation
+       Header
   ========================================================== -->
   <header class="site-header">
 
     <div class="container nav-wrap">
+
+      <a class="brand" href="#top">
+        <span class="brand-main">Darwin</span>
+        <span class="brand-sub">AI Research</span>
+      </a>
 
       <nav>
         <a href="#about">About</a>
@@ -53,106 +57,143 @@
     <!-- =========================================================
          Hero
     ========================================================== -->
-    <section class="hero container">
+    <section class="hero">
 
-      <!-- Left -->
-      <div class="hero-copy">
+      <div class="hero-background"></div>
 
-        <p class="eyebrow">
-          Researcher in Spatiotemporal Learning
-        </p>
+      <div class="container hero-inner">
 
-        <p class="hero-text">
-          I work on learning methods for spatiotemporal forecasting,
-          dynamic systems, representation learning,
-          and mobile/urban computing.
-        </p>
+        <!-- Left -->
+        <div class="hero-copy">
 
-        <div class="link-row">
+          <p class="eyebrow">
+            Researcher in Spatiotemporal Learning
+          </p>
 
-          <!-- Replace # with your CV URL -->
-          <a
-            class="button primary"
-            href="#"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            CV
-          </a>
+          <p class="hero-text">
+            I work on learning methods for spatiotemporal forecasting,
+            dynamic systems, representation learning,
+            and mobile/urban computing.
+          </p>
 
-          <!-- Replace # with your Google Scholar URL -->
-          <a
-            class="button"
-            href="#"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Google Scholar
-          </a>
+          <div class="link-row">
 
-          <a
-            class="button"
-            href="https://github.com/D-AI-network"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            GitHub
-          </a>
-
-          <!-- Replace # with your LinkedIn URL -->
-          <a
-            class="button"
-            href="#"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            LinkedIn
-          </a>
-
-        </div>
-
-      </div>
-
-
-      <!-- Right Profile Card -->
-      <div class="profile-card">
-
-        <div class="avatar">
-          GH
-        </div>
-
-        <div class="profile-info">
-
-          <h3 class="profile-name">
-            Giseong Hong
-          </h3>
-
-          <div class="profile-email">
-
-            <a href="mailto:darwinh@jnu.ac.kr">
-              darwinh@jnu.ac.kr
+            <!-- Replace # with your CV -->
+            <a
+              class="button primary"
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              CV
             </a>
 
-            <a href="mailto:darwinh.honge@gmail.com">
-              darwinh.honge@gmail.com
+            <!-- Replace # with your Scholar -->
+            <a
+              class="button"
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Google Scholar
+            </a>
+
+            <a
+              class="button"
+              href="https://github.com/D-AI-network"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub
+            </a>
+
+            <!-- Replace # with LinkedIn -->
+            <a
+              class="button"
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              LinkedIn
             </a>
 
           </div>
 
-          <div class="profile-divider"></div>
-
-          <strong>
-            Research interests
-          </strong>
-
-          <p>
-            Spatiotemporal Forecasting ·
-            Dynamic/Evolving Systems ·
-            Representation Learning ·
-            Mobile & Urban Computing
-          </p>
-
         </div>
+
+
+        <!-- Right profile -->
+        <aside class="profile-card">
+
+          <div class="avatar">
+            GH
+          </div>
+
+          <div class="profile-info">
+
+            <h1 class="profile-name">
+              Giseong Hong
+            </h1>
+
+
+            <!-- Email -->
+            <div class="profile-section email-section">
+
+              <p class="profile-section-label">
+                Contact
+              </p>
+
+              <div class="profile-email">
+
+                <a href="mailto:darwinh@jnu.ac.kr">
+                  darwinh@jnu.ac.kr
+                </a>
+
+                <a href="mailto:darwinh.honge@gmail.com">
+                  darwinh.honge@gmail.com
+                </a>
+
+              </div>
+
+            </div>
+
+
+            <!-- Divider -->
+            <div class="profile-divider"></div>
+
+
+            <!-- Research Interests -->
+            <div class="profile-section research-interest-section">
+
+              <p class="profile-section-label">
+                Research interests
+              </p>
+
+              <div class="interest-list">
+
+                <span>
+                  Spatiotemporal Forecasting
+                </span>
+
+                <span>
+                  Dynamic / Evolving Systems
+                </span>
+
+                <span>
+                  Representation Learning
+                </span>
+
+                <span class="mobile-computing">
+                  Mobile &amp; Urban Computing
+                </span>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </aside>
 
       </div>
 
@@ -162,7 +203,10 @@
     <!-- =========================================================
          About
     ========================================================== -->
-    <section id="about" class="section container">
+    <section
+      id="about"
+      class="section container"
+    >
 
       <div class="section-head">
 
@@ -200,7 +244,7 @@
           <div class="mini-card">
             <span>02</span>
             <strong>
-              Dynamic & Evolving Systems
+              Dynamic &amp; Evolving Systems
             </strong>
           </div>
 
@@ -214,7 +258,7 @@
           <div class="mini-card">
             <span>04</span>
             <strong>
-              Mobile & Urban Computing
+              Mobile &amp; Urban Computing
             </strong>
           </div>
 
@@ -228,13 +272,17 @@
     <!-- =========================================================
          Research
     ========================================================== -->
-    <section id="research" class="section soft-bg">
+    <section
+      id="research"
+      class="section soft-bg"
+    >
 
       <div class="container">
 
         <div class="section-head">
 
           <div>
+
             <p class="section-kicker">
               Research
             </p>
@@ -242,6 +290,7 @@
             <h2>
               Research directions
             </h2>
+
           </div>
 
         </div>
@@ -249,7 +298,6 @@
 
         <div class="research-grid">
 
-          <!-- Interaction Learning -->
           <article class="research-card">
 
             <span class="research-index">
@@ -274,7 +322,6 @@
           </article>
 
 
-          <!-- Frequency-aware Learning -->
           <article class="research-card">
 
             <span class="research-index">
@@ -299,7 +346,6 @@
           </article>
 
 
-          <!-- Evolving Systems -->
           <article class="research-card">
 
             <span class="research-index">
@@ -311,9 +357,8 @@
             </h3>
 
             <p>
-              Identifying and adapting to changes
-              in observations and underlying
-              system dynamics.
+              Identifying and adapting to changes in
+              observations and underlying system dynamics.
             </p>
 
             <div class="tag-row">
@@ -377,8 +422,6 @@
 
       </div>
 
-
-      <!-- Publications generated by site.js -->
       <div
         id="publication-list"
         class="publication-list"
@@ -413,8 +456,6 @@
 
         </div>
 
-
-        <!-- News generated by site.js -->
         <div
           id="news-list"
           class="news-list"
@@ -442,12 +483,12 @@
           </p>
 
           <h2>
-            Research & collaboration
+            Research &amp; collaboration
           </h2>
 
           <p>
             For research discussions, collaborations,
-            or professional inquiries, feel free to contact me by email.
+            or professional inquiries, feel free to contact me.
           </p>
 
         </div>
@@ -467,16 +508,6 @@
             href="mailto:darwinh.honge@gmail.com"
           >
             Gmail
-          </a>
-
-          <!-- Replace # with your LinkedIn URL -->
-          <a
-            class="button"
-            href="#"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            LinkedIn
           </a>
 
         </div>
@@ -500,7 +531,7 @@
       </span>
 
       <span>
-        Research Portfolio
+        Darwin AI Research
       </span>
 
     </div>
@@ -508,7 +539,6 @@
   </footer>
 
 
-  <!-- Main JS -->
   <script src="assets/js/site.js"></script>
 
 </body>
