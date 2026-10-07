@@ -329,19 +329,35 @@ h3 {
 .interest-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 12px;
+  gap: 10px;
 }
 
 .mini-card {
-  min-height: 140px;
-  padding: 20px;
+  min-height: 105px;
+  padding: 16px 18px;
+
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
+  gap: 18px;
+
   border: 1px solid var(--card-border);
   border-radius: 16px;
+
   background: #ffffff;
+
   transition: all 0.2s ease;
+}
+
+.mini-card span {
+  color: var(--blue);
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.mini-card strong {
+  font-size: 15px;
+  line-height: 1.4;
 }
 
 .mini-card:hover {
