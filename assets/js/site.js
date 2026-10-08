@@ -124,7 +124,7 @@ const publications = [
 
     abstract: "TARA investigates traffic anchor-based representation alignment for spatiotemporal traffic forecasting. It uses latent traffic anchors to represent traffic dynamics and supports forecasting across different traffic operating conditions.",
 
-    image: null,
+    image: "assets/img/tara.svg",
 
     links: []
   },
