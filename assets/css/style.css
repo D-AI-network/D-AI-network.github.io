@@ -966,3 +966,17 @@ img {
     flex-direction: column;
   }
 }
+
+/* 모든 섹션 제목 크기 통일 */
+.section h2,
+.contact-section h2 {
+  font-size: 34px;
+}
+
+/* 모바일 제목 크기 */
+@media (max-width: 620px) {
+  .section h2,
+  .contact-section h2 {
+    font-size: 26px;
+  }
+}
