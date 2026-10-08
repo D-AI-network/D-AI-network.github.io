@@ -394,7 +394,7 @@ img {
 
 .column-title {
   margin: 0 0 18px;
-  font-size: 13px;
+  font-size: 15px;
   color: var(--muted);
   text-transform: uppercase;
   letter-spacing: 0.1em;
@@ -409,19 +409,20 @@ img {
 }
 
 .timeline-date {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 700;
   color: var(--blue-dark);
 }
 
 .timeline-card h4 {
   margin: 0;
-  font-size: 16px;
+  font-size: 18px;
+  line-height: 1.4;
 }
 
 .timeline-role {
   margin: 2px 0 8px !important;
-  font-size: 12px !important;
+  font-size: 14px !important;
   font-weight: 600;
   color: var(--blue-dark) !important;
 }
@@ -429,7 +430,8 @@ img {
 .timeline-card p {
   margin: 0;
   color: var(--muted);
-  font-size: 13px;
+  font-size: 15px;
+  line-height: 1.7;
 }
 
 
