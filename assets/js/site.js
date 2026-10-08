@@ -90,7 +90,7 @@ const publications = [
     year: 2026,
     selected: true,
 
-    authors: "Giseong Hong, et al.",
+    authors: "Giseong Hong, Botambu Collins, Jin-Taek Seong",
 
     tldr: "Combines spectral frequency encoding with prototype alignment for mobile traffic forecasting.",
 
@@ -116,7 +116,7 @@ const publications = [
     venue: "IEEE Transactions on Intelligent Transportation Systems — Under Review (Revision 1)",
 
     year: 2026,
-    selected: true,
+    selected: false,
 
     authors: "Giseong Hong, Botambu Collins, Jin-Taek Seong",
 
@@ -139,9 +139,9 @@ const publications = [
     venue: "IEEE Access — Under Review",
 
     year: 2026,
-    selected: true,
+    selected: false,
 
-    authors: "Giseong Hong, et al.",
+    authors: "Giseong Hong, Botambu Collins, Jin-Taek Seong",
 
     tldr: "Explores frequency-to-topology routing for cellular traffic demand forecasting.",
 
