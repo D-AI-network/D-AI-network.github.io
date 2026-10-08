@@ -58,14 +58,24 @@ const publications = [
 
     abstract: "BPR-Net models temporal responses at frequency-bin resolution and connects them to spatial units using prototype-based routing. The design links temporal behavior with spatial relation learning for spatiotemporal forecasting.",
 
-    image: "assets/img/bprnet.svg",
+    
+   image: "assets/img/bprnet.svg",
+   
+   links: [
+     {
+       label: "Paper",
+       url: "https://doi.org/10.1145/3799682.3841075"
+     },
+     {
+       label: "PDF",
+       url: "26CIKM_BPR-Net.pdf"
+     },
+     {
+       label: "Code",
+       url: "https://github.com/D-AI-network/bprnet"
+     }
+   ]
 
-    links: [
-      {
-        label: "Code",
-        url: "https://github.com/D-AI-network/bprnet"
-      }
-    ]
   },
 
 
