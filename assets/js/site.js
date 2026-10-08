@@ -147,7 +147,7 @@ const publications = [
 
     abstract: "This work investigates frequency-aware representations and topology routing for cellular traffic demand forecasting.",
 
-    image: null,
+    image: "assets/img/ftr.svg",
 
     links: []
   }
