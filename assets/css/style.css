@@ -274,7 +274,7 @@ img {
 .kicker {
   margin: 0 0 12px;
   color: var(--blue-dark);
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 700;
   letter-spacing: 0.13em;
   text-transform: uppercase;
@@ -303,7 +303,7 @@ img {
 
 .mini-label {
   margin: 0 0 11px;
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 700;
   color: var(--text);
 }
@@ -320,7 +320,7 @@ img {
   border: 1px solid var(--blue-line);
   border-radius: 999px;
   color: #31586f;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 600;
 }
 
