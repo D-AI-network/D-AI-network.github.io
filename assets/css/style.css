@@ -700,46 +700,91 @@ img {
 
 
 
+
 /* =========================================================
-   CONTACT / FOOTER
+   CONTACT EMAIL CARDS
 ========================================================= */
 
-.contact-section {
-  max-width: var(--content-max);
-  padding: 80px 0 64px;
-}
-
-.contact-section > p:not(.kicker) {
-  max-width: 680px;
-  color: var(--muted);
-}
-
 .contact-actions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin-top: 22px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  max-width: 720px;
+  margin-top: 28px;
 }
 
 .contact-actions a {
-  padding: 10px 13px;
-  border: 1px solid var(--blue-line);
-  border-radius: 9px;
-  color: var(--blue-dark);
-  font-size: 12px;
-  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  position: relative;
+
+  min-width: 0;
+  min-height: 94px;
+  padding: 18px 42px 18px 20px;
+
+  background: #ffffff;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+
+  text-decoration: none;
+  transition: all 0.2s ease;
 }
 
-.footer {
-  max-width: var(--content-max);
-  padding: 24px 0 34px;
-  border-top: 1px solid var(--line);
-  display: flex;
-  justify-content: space-between;
-  gap: 20px;
-  color: var(--soft-text);
-  font-size: 11px;
+.contact-email-label {
+  display: block;
+  margin-bottom: 7px;
+
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--muted);
 }
+
+.contact-email-address {
+  display: block;
+
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: var(--blue-dark);
+
+  overflow-wrap: anywhere;
+}
+
+.contact-actions a::after {
+  content: "↗";
+  position: absolute;
+  right: 18px;
+  top: 20px;
+
+  font-size: 17px;
+  color: var(--blue-dark);
+}
+
+.contact-actions a:hover {
+  border-color: var(--blue-line);
+  background: var(--blue-soft);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 14px rgba(19, 95, 141, 0.07);
+}
+
+/* Mobile */
+@media (max-width: 620px) {
+  .contact-actions {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .contact-actions a {
+    min-height: 82px;
+  }
+
+  .contact-email-address {
+    font-size: 15px;
+  }
+}
+
 
 
 /* =========================================================
