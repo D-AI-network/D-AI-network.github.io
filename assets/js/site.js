@@ -6,27 +6,27 @@
 const news = [
   {
     date: "Sep 2026",
-    text: "Received the Creative Research Award at the K-DS Academic Conference for research on spatiotemporal forecasting."
+    text: "Received the Creative Research Award at the K-DS Academic Conference for research in spatiotemporal forecasting."
   },
   {
     date: "Sep 2026",
-    text: "Won the Creativity Award at the K-DS Hackathon."
+    text: "Received the Creativity Award at the K-DS Hackathon 2026."
   },
   {
     date: "Aug 2026",
-    text: "Our paper, BPR-Net, was accepted at CIKM 2026 for oral presentation."
+    text: "Our paper, BPR-Net, was accepted as a full paper at ACM CIKM 2026 and selected for an oral presentation."
   },
   {
     date: "Apr 2026",
-    text: "Presented research at JCCI 2026 (Oral Presentation)."
+    text: "Delivered an oral presentation at JCCI 2026."
   },
   {
     date: "Sep 2025",
-    text: "Won the Creativity Award at the K-DS Hackathon."
+    text: "Received the Creativity Award at the K-DS Hackathon 2025."
   },
   {
     date: "Aug 2025",
-    text: "Selected for the Research Incentive Grant Program for Master's Students, supported by the National Research Foundation of Korea (NRF)."
+    text: "Awarded a one-year Master's Student Research Grant from the National Research Foundation of Korea (NRF), covering September 2025 to August 2026."
   },
   {
     date: "Mar 2025",
